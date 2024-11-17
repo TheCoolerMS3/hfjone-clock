@@ -1,19 +1,19 @@
 <svg>
   <image href="locations/plane.png" width="336" height="336" id="background" />
-  <image href="characters/liam.png" id="chara" width="130" height="165" y="120" x="100" />
+  <image href="characters/liam.png" id="chara" width="130" height="210" y="90" x="100" />
   <image href="overlays/overlay.png" id="overlay" width="1" height="1" />
   <text id="time" x="50%" y="36" font-size="36" fill="black"></text>
 
   <!-- Menu Group -->
   <g id="menu" class="menu-ui">
     <!-- Menu background rectangle -->
-    <rect x="10" y="180" id="menu-rect" width="200" height="110" fill="lightgray" stroke="black" stroke-width="2" rx="10" ry="10" />
+    <rect x="0" y="180" id="menu-rect" width="336" height="250" fill="lightgray" stroke="black" stroke-width="2" rx="10" ry="10" />
 
     <!-- Menu items -->
-    <text id="menu-item1" x="30" y="210" font-size="20" text-length="140" fill="black" cursor="pointer">[Liam]           </text>
-    <text id="menu-item2" x="30" y="240" font-size="20" text-length="140" fill="black" cursor="pointer">Kill              </text>
-    <text id="menu-item3" x="30" y="270" font-size="20" text-length="140" fill="black" cursor="pointer">Change character</text>
-    <text id="menu-item-extra1" x="30" y="180" font-size="20" text-length="140" fill="black" cursor="pointer"></text>
-    <text id="menu-item-extra2" x="30" y="150" font-size="20" text-length="140" fill="black" cursor="pointer"></text>
+    <text id="menu-item1" x="30" y="230" font-size="35" text-length="140" fill="black" cursor="pointer">[Liam]           </text>
+    <text id="menu-item2" x="30" y="270" font-size="35" text-length="140" fill="black" cursor="pointer">Kill              </text>
+    <text id="menu-item3" x="30" y="310" font-size="35" text-length="140" fill="black" cursor="pointer">Change character</text>
+    <text id="menu-item-extra1" x="30" y="190" font-size="35" text-length="140" fill="black" cursor="pointer"></text>
+    <text id="menu-item-extra2" x="30" y="150" font-size="35" text-length="140" fill="black" cursor="pointer"></text>
   </g>
 </svg>

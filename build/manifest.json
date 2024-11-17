@@ -1,0 +1,77 @@
+{
+  "buildId": "0x0e790ce1427ef6a2",
+  "components": {
+    "watch": {
+      "atlas": {
+        "platform": [
+          "128.1.1+"
+        ],
+        "filename": "device-atlas.zip",
+        "supports": {
+          "screenSize": {
+            "w": 336,
+            "h": 336
+          }
+        }
+      },
+      "vulcan": {
+        "platform": [
+          "128.1.1+"
+        ],
+        "filename": "device-vulcan.zip",
+        "supports": {
+          "screenSize": {
+            "w": 336,
+            "h": 336
+          }
+        }
+      },
+      "rhea": {
+        "platform": [
+          "128.1.1+"
+        ],
+        "filename": "device-rhea.zip",
+        "supports": {
+          "screenSize": {
+            "w": 336,
+            "h": 336
+          }
+        }
+      },
+      "hera": {
+        "platform": [
+          "128.1.1+"
+        ],
+        "filename": "device-hera.zip",
+        "supports": {
+          "screenSize": {
+            "w": 336,
+            "h": 336
+          }
+        }
+      }
+    }
+  },
+  "sourceMaps": {
+    "device": {
+      "atlas": {
+        "app/index.js": "sourceMaps/device/atlas/app/index.js.map"
+      },
+      "vulcan": {
+        "app/index.js": "sourceMaps/device/vulcan/app/index.js.map"
+      },
+      "rhea": {
+        "app/index.js": "sourceMaps/device/vulcan/app/index.js.map"
+      },
+      "hera": {
+        "app/index.js": "sourceMaps/device/vulcan/app/index.js.map"
+      }
+    }
+  },
+  "manifestVersion": 6,
+  "sdkVersion": {
+    "deviceApi": "8.2.0"
+  },
+  "requestedPermissions": [],
+  "appId": "f8d7c96d-a68c-4695-abda-c1d5c27b1067"
+}
