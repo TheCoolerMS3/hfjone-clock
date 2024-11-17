@@ -1,12 +1,49 @@
-.defaultText {
-  font-size: 32;
-  font-family: System-Regular;
-  font-weight: regular;
-  text-length: 32;
+#time {
+  font-size: 36;
+  font-family: System-Bold;
+  text-length: 30;
+  x: 36;
+  y: 5;
+  fill: black;
+  text-anchor: middle;
 }
+
+
 
 #background {
   width: 100%;
   height: 100%;
   fill: white;
+  cursor: pointer; /* Makes it clear the element is clickable */
+  pointer-events: all; /* Ensures the element can receive pointer events */
+}
+
+#chara {
+  cursor: pointer; /* Makes it clear the element is clickable */
+  pointer-events: all; /* Ensures the element can receive pointer events */
+}
+
+#overlay {
+  cursor: pointer; /* Makes it clear the element is clickable */
+  pointer-events: all; /* Ensures the element can receive pointer events */
+}
+
+#menu-item1 {
+  cursor: pointer; /* Makes it clear the element is clickable */
+  pointer-events: all; /* Ensures the element can receive pointer events */
+}
+
+#menu-item2 {
+  cursor: pointer; /* Makes it clear the element is clickable */
+  pointer-events: all; /* Ensures the element can receive pointer events */
+}
+
+#menu-item3 {
+  cursor: pointer; /* Makes it clear the element is clickable */
+  pointer-events: all; /* Ensures the element can receive pointer events */
+}
+
+#menu-item-extra1 {
+  cursor: pointer; /* Makes it clear the element is clickable */
+  pointer-events: all; /* Ensures the element can receive pointer events */
 }
