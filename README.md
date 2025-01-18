@@ -13,4 +13,4 @@ Languages:
 * JavaScript
 * CSS
 
-Made for Hack Club's High Seas
+Made for Hack Club's High Seas.
